@@ -1,0 +1,53 @@
+.todo-list {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 50px; }
+  .todo-list .wrap {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .todo-list .wrap .content {
+      width: 100%; }
+      .todo-list .wrap .content .add-data input {
+        padding: 15px; }
+      .todo-list .wrap .content ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px; }
+        .todo-list .wrap .content ul .item {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          position: relative;
+          padding: 15px;
+          margin-bottom: 5px;
+          border: 1px solid #ced4da; }
+          .todo-list .wrap .content ul .item span {
+            padding-left: 20px; }
+          .todo-list .wrap .content ul .item .form-check-input:hover {
+            cursor: pointer; }
+          .todo-list .wrap .content ul .item .close {
+            position: absolute;
+            right: 7px;
+            top: 7px;
+            width: 40px;
+            height: 40px;
+            font-size: 2rem;
+            border-radius: 2px;
+            background-color: #E83B57;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .todo-list .wrap .content ul .item .close:hover {
+              cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
